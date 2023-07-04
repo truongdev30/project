@@ -24,8 +24,9 @@ html{
 }
 
 
+/* Responsive  */
 .grid{
-    width: 1030px;
+    width: 1200px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -37,6 +38,22 @@ html{
 .grid__row{
     font-display: flex;
     flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+/* test */
+.grid__column-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.667%;
+}
+
+
+.grid__column-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3334%;
 }
 
 /* Animation    */
